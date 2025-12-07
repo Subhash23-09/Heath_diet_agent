@@ -23,29 +23,7 @@ Google Gemini 2.5 Flash (ChatGoogleGenerativeAI)
 
 JSON file storage for user history and knowledge base
 
-## Project-Structure
-
-Diet_project/
-│
-├─ healthbackend/
-│  ├─ app.py                     # Flask application (routes & error handlers)
-│  ├─ config/
-│  │   ├─ logging_config.py
-│  │   └─ settings.py            # Loads API_KEY, GOOGLE_API_KEY, MODEL_NAME
-│  ├─ services/
-│  │   ├─ agents.py              # Symptom, lifestyle, diet, fitness agents
-│  │   ├─ orchestrator.py        # Orchestrates multi‑agent workflow
-│  │   ├─ memory.py              # Shared ConversationBufferMemory
-│  │   ├─ history_store.py       # JSON history persistence
-│  │   └─ rag.py                 # Simple keyword RAG over knowledge.json
-│  ├─ storage/
-│  │   ├─ history.json           # Per‑user interaction history
-│  │   └─ knowledge.json         # Domain knowledge base
-│  └─ utils/
-│      ├─ exceptions.py          # AuthError, InputError, AgentError
-│      └─ __init__.py
-├─ .env                          # Environment variables
-└─ requirements.txt
+## Result
 
 
 POST- http://127.0.0.1:5000/health-assist
