@@ -13,15 +13,25 @@ API key–protected REST endpoints (/health-assist, /history/<user_id>).
 Structured JSON response with synthesized_guidance and recommendations.​
 
 ## Tech Stack
-Python 3.11
 
-Flask
+- **Language & Runtime**
+  - Python 3.11
 
-LangChain (langchain, langchain-google-genai)
+- **Web Framework**
+  - Flask (REST API, routing, error handling) 
 
-Google Gemini 2.5 Flash (ChatGoogleGenerativeAI)
+- **LLM & Orchestration**
+  - LangChain core (`langchain`) for agents, tools, and memory abstractions
+  - `langchain-google-genai` with `ChatGoogleGenerativeAI` (Gemini 2.5 Flash) using `ainvoke`   
+  - Custom multi‑agent orchestrator coordinating symptom, lifestyle, diet, and fitness agents (supervisor pattern)
 
-JSON file storage for user history and knowledge base
+- **Memory & Retrieval**
+  - `ConversationBufferMemory` as shared short‑term conversational memory for agent‑to‑agent context (`services/memory.py`)
+
+
+- **Security & Config**
+  - API key authentication via `x-api-key` header and custom decorator  
+  - Environment configuration with `python-dotenv` (`.env` for API keys and model name) 
 
 ## Result
 
