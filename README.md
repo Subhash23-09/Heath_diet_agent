@@ -6,7 +6,7 @@ Multi‑agent pipeline for symptom analysis, lifestyle tips, diet, and fitness.�
 
 Shared short‑term memory using ConversationBufferMemory so agents can see each other’s outputs.​
 
-RAG hook over a local knowledge.json file for simple evidence injection.
+RAG hook over a local knowledge.json file.
 
 API key–protected REST endpoints (/health-assist, /history/<user_id>).
 
