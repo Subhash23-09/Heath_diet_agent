@@ -44,3 +44,7 @@ POST- http://127.0.0.1:5000/health-assist
 GET- http://127.0.0.1:5000/history/test1
 <img width="1322" height="778" alt="image" src="https://github.com/user-attachments/assets/3ae19224-4344-4a57-a029-f89e640c9fc6" />
 
+POST - http://127.0.0.1:5000/recommendations
+<img width="1262" height="783" alt="image" src="https://github.com/user-attachments/assets/ca1d0770-ff85-4c5b-bbee-d3644b3ce593" />
+
+
