@@ -1,7 +1,7 @@
 # Arogya Wellness Orchestrator
 
 **Arogya Wellness Orchestrator** is a full-stack, multi-agent health and wellness assistant.  
-The backend (Flask + LangChain + Google Gemini) coordinates specialized agents for symptoms, lifestyle, diet, and fitness, then synthesizes a **safe, non-diagnostic wellness plan**.  
+The backend (Flask + LangChain + Google Gemini) coordinates specialized agents for symptoms, lifestyle, diet, and fitness, then synthesizes a **safe wellness plan**.  
 The frontend (React + Vite) provides a guided experience for login, profile management, wellness queries, and follow-up questions.
 
 ---
