@@ -14,6 +14,10 @@ The frontend (React + Vite) provides a guided experience for login, profile mana
 - **Diet & Nutrition Agent** – food and hydration guidance (with simple RAG context)
 - **Fitness & Activity Agent** – low-intensity, safety-first movement suggestions
 
+## Architecture
+<img width="1059" height="1388" alt="Untitled diagram-2025-12-05-142632" src="https://github.com/user-attachments/assets/5fc404da-35f7-4d4f-a22a-54fbf73d9a4f" />
+
+
 ### Shared Conversational Memory
 - Short-term memory shared between agents during orchestration
 - Ensures agents are context-aware of each other’s outputs
